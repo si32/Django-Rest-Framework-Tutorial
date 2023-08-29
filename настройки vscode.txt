@@ -1,0 +1,80 @@
+{
+  "telemetry.enableCrashReporter": false,
+  "workbench.startupEditor": "newUntitledFile",
+  // Чтобы при сохранении файла в конце файла всегда была одна пустая строка
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  // Чтобы убрать все пробелы после всех стрк
+  "files.trimTrailingWhitespace": true,
+  //Ctrl + (Mouse wheel) — переключение масштаба
+  "editor.mouseWheelZoom": true,
+  // включение механизма хлебных крошек
+  "breadcrumbs.enabled": true,
+  // Встроенный терминал будет bash, который я поставил с Git (указать путь)
+  //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
+  // Открывать настройки в формате json. по умолчанию и линые рядом
+  //"workbench.settings.editor": "json",
+  //"workbench.settings.openDefaultSettings": true,
+  // Python envirement
+  "python.pythonPath": "C:\\Users\\Sergei\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  // "editor.minimap.enabled": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "pixelbyte.love2d.path": "C:\\Program Files\\Love\\love.exe",
+  "pixelbyte.love2d.debug": true,
+  "pixelbyte.love2d.runOnSave": false,
+  "editor.renderWhitespace": "none",
+  "git.ignoreWindowsGit27Warning": true,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // How to enable native bracket matching
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.terminal.executeInFileDir": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "workbench.colorTheme": "LaserWave",
+  // Arguments passed in. Each argument is a separate item in the array.
+  // "python.linting.pylintArgs": [
+  //     "--ignored-classes=SQLObject,Registrant,scoped_session"
+  // ],
+  "editor.minimap.enabled": true,
+  "editor.minimap.side": "right",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.linkedEditing": true,
+
+  // "tokenColors": [
+  //   {
+  //     "scope": [
+  //       "entity.tag.tagbraces.django",
+  //       "storage.type.templatetag.django",
+  //       "text.html.django",
+  //     ],
+  //     "settings": {
+  //       "foreground": "#A96BC0"
+  //     }
+  //   }
+  // ]
+  "workbench.colorCustomizations": {
+    "terminal.selectionBackground": "#f00"
+  },
+  // insent spaces for different type files
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "terminal.integrated.altClickMovesCursor": true,
+  "terminal.integrated.rightClickBehavior": "default",
+  "terminal.integrated.copyOnSelection": true,
+  "workbench.settings.applyToAllProfiles": [
+    "terminal.integrated.copyOnSelection"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
